@@ -1,0 +1,30 @@
+Software
+````````
+Install Command
+Sudo Pacman -S Ranger URxvt
+
+#############
+# Graphical #
+#############
+
+Ranger
+URxvt
+Brave*
+HTop
+Xorg
+Nvim
+Feh
+MPV
+i3-gaps
+i3-status
+
+#############
+# Utilities #
+#############
+
+Screnfetch
+Scrot
+Yay
+Git
+Python-Pywal
+Compton
