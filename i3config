@@ -3,7 +3,20 @@
 ########
 gaps inner 10
 gaps outer 20
-new_window pixel 10
+new_window pixel 3
+
+set_from_resource $black 	color0
+set_from_resource $red 		color1
+set_from_resource $green	color2
+set_from_resource $yellow	color3
+set_from_resource $blue		color4
+set_from_resource $magenta	color5
+set_from_resource $cyan		color6
+set_from_resource $white	color7
+
+# Class			border	backgr.	text	indict.	child.b	
+client.focused 		$yellow	$yellow	$yellow	$yellow	$yellow
+client.unfocused	$white	$white	$white	$white	$white
 
 set $mod Mod1
 
